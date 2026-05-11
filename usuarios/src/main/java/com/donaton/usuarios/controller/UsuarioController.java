@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(origins = "*") // <--- AGREGA ESTA LÍNEA AQUÍ
 @RestController
 @RequestMapping("/api/usuarios")
 public class UsuarioController {
